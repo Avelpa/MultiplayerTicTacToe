@@ -167,9 +167,9 @@ class Game {
          * Handles the otherPlayerMoved message.
          */
         public void otherPlayerMoved(int location) {
-//            output.println("OPPONENT_MOVED " + location);
+            output.println("OPPONENT_MOVED " + location);
             output.println(
-                hasWinner() ? "DEFEAT" : boardFilledUp() ? "TIE" : "OPONENT MOVED " + location);
+                hasWinner() ? "DEFEAT" : boardFilledUp() ? "TIE" : "");
         }
 
         /**
